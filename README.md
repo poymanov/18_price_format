@@ -1,7 +1,35 @@
 # Price Formatter
 
-[TODO. There will be project description]
+Скрипт форматирует переданную цену в "денежный" формат отображения.
 
-# Project Goals
+# Как запустить
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Скрипт требует для своей работы установленного интерпретатора **Python** версии **3.5**.
+
+**Запуск на Linux**
+
+```bash
+$ python format_price.py # или python3, в зависимости от настроек системы
+
+# запрос ввода значения
+Enter the price to format:
+
+# результат выполнения
+Formatted price: 3 245
+
+# если введено некорректное число
+Failed to format price string
+
+```
+
+Запуск на **Windows** происходит аналогично.
+
+# Запуск тестов
+
+```
+$ python tests.py
+```
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
